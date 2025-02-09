@@ -1,0 +1,106 @@
+.frame {
+  background-color: #f9fdff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #f9fdff;
+  overflow: hidden;
+  width: 1158px;
+  height: 1080px;
+  position: relative;
+}
+
+.frame .hi-i-m-rajat-kumar {
+  position: absolute;
+  top: 127px;
+  left: 65px;
+  font-family: var(--poppins-39px-regular-font-family);
+  font-weight: var(--poppins-39px-regular-font-weight);
+  color: var(--x-6);
+  font-size: var(--poppins-39px-regular-font-size);
+  letter-spacing: var(--poppins-39px-regular-letter-spacing);
+  line-height: var(--poppins-39px-regular-line-height);
+  font-style: var(--poppins-39px-regular-font-style);
+}
+
+.frame .div-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1226px;
+  height: 881px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 209px 99px;
+  position: absolute;
+  top: 256px;
+  left: -34px;
+}
+
+.frame .designer-developer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1226px;
+  height: 921px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frame .designer-developer {
+  position: relative;
+  width: 1120px;
+  height: 763px;
+  object-fit: cover;
+}
+
+.frame .div-3 {
+  display: flex;
+  width: 1028px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .div-4 {
+  display: flex;
+  flex-direction: column;
+  width: 336px;
+  align-items: center;
+  gap: 19px;
+  position: relative;
+}
+
+.frame .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: 'Poppins-Medium', Helvetica;
+  font-weight: 500;
+  color: var(--x-6);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .p {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--metrofobic-20px-regular-font-family);
+  font-weight: var(--metrofobic-20px-regular-font-weight);
+  color: var(--x-7);
+  font-size: var(--metrofobic-20px-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--metrofobic-20px-regular-letter-spacing);
+  line-height: var(--metrofobic-20px-regular-line-height);
+  font-style: var(--metrofobic-20px-regular-font-style);
+}
